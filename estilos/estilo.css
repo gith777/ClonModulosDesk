@@ -1,0 +1,74 @@
+@font-face{
+
+	font-family: 'Lato-Light';
+	src: url('Lato-Light.ttf') format("truetype");
+}
+
+@font-face{
+	font-family: 'Poppins-Regular';
+	src: url('Poppins-Regular.ttf') format("truetype");
+}
+
+
+
+h1{
+	font-family: 'Lato-Light';
+	font-size: 26px;
+
+}
+
+p{
+	font-family: 'Poppins-Regular';
+	font-size: 26px;
+}
+
+#fila1{
+	
+	height: 80px;
+	background-color: gray;
+}
+#fila1>div{
+	border: 2px solid black;
+	display: inline;
+}
+
+.flotarizquierda{
+	float: left;
+}
+
+.flotarderecha{
+	float: right;
+}
+
+.centrar{
+	position: relative;
+	left: 35%;
+	/*position:absolute; ---> Otra Opción
+   width: 200px;
+   left: 50%;
+   margin-left: -100px;
+   */
+}
+
+#fila2>div{
+	display: inline-block;
+}
+
+#fila2{
+	height: 400px;
+}
+
+#cabecera{
+	margin: 0;
+	padding: 0;
+	width: 25%;
+}
+
+#fondoimagen{
+	margin: 0;
+	padding: 0;
+	width: 70%;
+	height: 100%;
+	background-image: url('../imagenes/img1.png');
+	background-color: rgb(255, 178, 0, 0.7);
+}
